@@ -60,12 +60,14 @@ function Header() {
     if (open) {
       // Disable scrolling
       document.body.style.overflow = "hidden";
+
+      // Scroll to the top of the page
+      window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       // Enable scrolling
       document.body.style.overflow = "";
     }
 
-    // Cleanup on unmount
     return () => {
       document.body.style.overflow = "";
     };
