@@ -79,7 +79,7 @@ import React, { useState } from 'react'
          
 
         <form onSubmit={handleSubmit} className="md:w-[80%] inter-font flex flex-col justify-center items-center md:justify-start md:items-start gap-3">
-            <div className="flex gap-3">
+            <div className="flex gap-3 w-full">
             <div className="w-full">
             <p className="text-gray-600 italic text-lg inter-font">
             (Name)
