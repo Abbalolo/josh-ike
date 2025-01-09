@@ -1,8 +1,9 @@
+
 import type { Metadata } from "next";
-import { Toaster } from "@/components/ui/toaster"
-import "./globals.css";
+import { Toaster } from "@/components/ui/toaster";
 import Header from "./components/Header";
 
+import "./globals.css";
 
 
 export const metadata: Metadata = {
@@ -15,13 +16,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
+
+
   return (
-    <html lang="en">
+    <html lang="en" >
+       {/* ${
+          theme === "dark" ? " text-[#ffffff]" : "bg-[#ffffff] text-[#000000]"
+        } */}
       <body
-        className="bg-[#0E1011] text-[#ffffff]"
-        >
-           <Toaster />
-        <Header/>
+        className={`transition-colors duration-300  dark:bg-[#0E1011] dark:text-[#ffffff]`}
+      >
+        <Toaster />
+        <Header />
+        
         {children}
       </body>
     </html>

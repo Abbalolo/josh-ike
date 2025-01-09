@@ -6,6 +6,7 @@
 
 body {
   font-family: "Anton SC", serif;
+  scroll-behavior: smooth;
 }
 
 

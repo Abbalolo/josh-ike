@@ -5,7 +5,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="work" data-aos="zoom-in-down" className="flex flex-col gap-5 bg-[#181A1B]">
+    <section id="work" data-aos="zoom-in-down" className="dark:bg-[#181A1B]  dark:text-[#ffffff] flex flex-col gap-5 ">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
           <p className="text-gray-600 italic inter-font">

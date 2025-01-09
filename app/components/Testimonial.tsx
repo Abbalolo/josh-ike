@@ -10,7 +10,7 @@ function Testimonial() {
    
     
   return (
-    <section data-aos="zoom-in" className="flex flex-col  bg-[#0E1011] pb-10">
+    <section data-aos="zoom-in" className="flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff] pb-10">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
           <p className="text-gray-600 italic  inter-font">(Testimonial)</p>
@@ -28,7 +28,7 @@ function Testimonial() {
       </div>
      
      <div  className="flex flex-col md:flex-row ">
-        <div data-aos="zoom-in" className="md:p-12 p-10 flex flex-col gap-5 bg-[#1F2122]">
+        <div data-aos="zoom-in" className="md:p-12 p-10 flex flex-col gap-5  dark:bg-[#1F2122] dark:text-[#ffffff]">
             <span className="md:text-[100px] text-[60px] font-bold">“</span>
         <p className="inter-font md:text-3xl text-2xl ">
           Hear our clients about their success stories and experiences with us.
@@ -54,7 +54,7 @@ function Testimonial() {
           </div>
           </div>
         </div>
-        <div data-aos="zoom-in" className="md:p-12 p-10 flex flex-col gap-5 mb-5 bg-[#181A1B]">
+        <div data-aos="zoom-in" className="md:p-12 p-10 flex flex-col gap-5 md:mb-5 dark:bg-[#181A1B]  dark:text-[#ffffff]">
         <span className=" md:text-[100px] text-[60px] font-bold">“</span>
         <p className="inter-font md:text-3xl  text-2xl">
           Hear our clients about their success stories and experiences with us.
@@ -80,7 +80,7 @@ function Testimonial() {
           </div>
           </div>
         </div>
-        <div data-aos="zoom-in" className="md:p-12 p-10 flex flex-col gap-5 mb-10 bg-[#1F2122]">
+        <div data-aos="zoom-in" className="md:p-12 p-10 flex flex-col gap-5 md:mb-10 dark:bg-[#1F2122] dark:text-[#ffffff]">
         <span className="md:text-[100px] text-[60px] font-bold">“</span>
         <p className="inter-font md:text-3xl  text-2xl">
           Hear our clients about their success stories and experiences with us.

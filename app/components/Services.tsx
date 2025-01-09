@@ -61,7 +61,7 @@ function Services() {
     ];
     
   return (
-    <section id="service" data-aos="zoom-in" className="flex flex-col  bg-[#0E1011]">
+    <section id="service" data-aos="zoom-in" className="flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff]">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
           <p className="text-gray-600 italic  inter-font">(What we do)</p>
@@ -79,7 +79,7 @@ function Services() {
         </div>
       </div>
       {serviceData.map((data, index) => (
-      <div data-aos="zoom-in" key={index} className="divide-y divide-black bg-[#181A1B] flex flex-col md:flex-row">
+      <div data-aos="zoom-in" key={index} className="divide-y dark:divide-black  dark:bg-[#181A1B] flex flex-col md:flex-row dark:text-[#ffffff]">
         <div data-aos="fade-right" className=" md:w-[40%] ">
           <Image
           
@@ -105,7 +105,7 @@ function Services() {
             ({data.name})
           </p>
 
-          <ul className="inter-font md:text-2xl  grid grid-cols-2  gap-5 mt-5 font-bold  pb-5 md:p-0">
+          <ul className="inter-font md:text-2xl  grid grid-cols-2  gap-5 mt-5 font-semibold  pb-5 md:p-0">
             {data.servicesList.map((s, index) => (
  <li key={index}>{s}</li>
 

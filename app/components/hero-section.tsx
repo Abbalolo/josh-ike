@@ -11,9 +11,9 @@ function HeroSection() {
       <section data-aos="zoom-in"  className="flex md:justify-end flex-col md:flex-row ">
           <CarouselCon />
       
-        <div data-aos="zoom-in" className=" md:w-[60%] w-full flex flex-col gap-5 p-3 md:p-0 md:mt-28">
+        <div data-aos="zoom-in" className=" md:w-[60%] w-full flex flex-col gap-5 p-3 md:p-5 md:mt-28">
           <div className="md:text-[120px] text-[75px] flex flex-col leading-[0.9] ">
-            <span className="">JOSH IKE</span>
+            <span className="">JOSH</span>
             <span className="">EGESI.</span>
           </div>
 

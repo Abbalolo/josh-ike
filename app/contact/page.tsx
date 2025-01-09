@@ -54,7 +54,7 @@ import React, { useState } from 'react'
         // }
       };
    return (
-    <section data-aos="zoom-in"  className="flex md:justify-end flex-col md:flex-row ">
+    <section data-aos="zoom-in"  className=" flex md:justify-end flex-col md:flex-row ">
         
         <div className="relative md:w-[45%]">
         <Image
@@ -69,7 +69,7 @@ import React, { useState } from 'react'
             />
         </div>
       
-        <div data-aos="zoom-in" className=" md:w-[60%] w-full flex flex-col gap-5 p-3 md:p-0 md:mt-28">
+        <div data-aos="zoom-in" className=" md:w-[60%] w-full flex flex-col  gap-5 p-3 md:p-0 md:mt-28 py-10 md:py-0" >
           <div data-aos="fade-up" className="md:text-[120px] text-[75px] flex flex-col leading-[0.9] ">
             <span className="">Let&apos;s
             </span>
@@ -78,23 +78,23 @@ import React, { useState } from 'react'
 
          
 
-        <form onSubmit={handleSubmit} className="w-[80%] inter-font flex flex-col gap-3">
+        <form onSubmit={handleSubmit} className="md:w-[80%] inter-font flex flex-col justify-center items-center md:justify-start md:items-start gap-3">
             <div className="flex gap-3">
             <div className="w-full">
             <p className="text-gray-600 italic text-lg inter-font">
             (Name)
           </p>
-                <Input className="bg-[#0E1011] border border-gray-500 w-full" type='text' placeholder="First Name " value={name}  onChange={((e) => setName(e.target.value))}/>
+                <Input className="dark:bg-[#0E1011] border border-gray-500 w-full" type='text' placeholder="First Name " value={name}  onChange={((e) => setName(e.target.value))}/>
             </div>
             <div className="w-full">
             <p className="text-gray-600 italic text-lg inter-font">
             (Email)
           </p>
-                <Input className="bg-[#0E1011] border border-gray-500 "  type='email' placeholder="Email Address" value={email}  onChange={((e) => setEmail(e.target.value))} />
+                <Input className="dark:bg-[#0E1011] border border-gray-500 "  type='email' placeholder="Email Address" value={email}  onChange={((e) => setEmail(e.target.value))} />
             </div>
             </div>
 
-            <Textarea className="bg-[#0E1011] border border-gray-500" value={message} onChange={((e) => setMessage(e.target.value))} >
+            <Textarea className="dark:bg-[#0E1011] border border-gray-500" value={message} onChange={((e) => setMessage(e.target.value))} >
 
             </Textarea>
 

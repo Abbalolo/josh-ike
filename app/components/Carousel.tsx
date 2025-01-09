@@ -9,7 +9,9 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
+
 function CarouselCon() {
+
   const autoplayOptions = () => Autoplay({ delay: 5000 });
 
   return (
@@ -26,7 +28,7 @@ function CarouselCon() {
               src="/josh img/5.jpg"
               alt={"name"}
               priority
-              className="md:object-cover object-contain"
+              className="object-cover w-full"
             />
           </CarouselItem>
           <CarouselItem>
@@ -36,6 +38,8 @@ function CarouselCon() {
               src="/josh img/5.jpg"
               alt={"name"}
               priority
+              
+              className="object-cover w-full"
             />
           </CarouselItem>
           <CarouselItem>
@@ -45,12 +49,19 @@ function CarouselCon() {
               src="/josh img/5.jpg"
               alt={"name"}
               priority
+              
+              className="object-cover w-full"
             />
           </CarouselItem>
         </CarouselContent>
       </Carousel>
+     
+
+  
+
+
     </div>
   );
 }
-
+ 
 export default CarouselCon;
