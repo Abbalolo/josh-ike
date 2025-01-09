@@ -2,7 +2,7 @@
 import { Button } from '@/components/ui/button'
  import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { toast } from '@/hooks/use-toast'
+// import { toast } from '@/hooks/use-toast'
 import Image from 'next/image'
 
 import React, { useState } from 'react'
@@ -16,42 +16,42 @@ import React, { useState } from 'react'
         e.preventDefault();
     
         setLoading(true)
-        try {
-          const response = await fetch("/api/sendEmail", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({name, email, message}),
-          });
+        // try {
+        //   const response = await fetch("/api/sendEmail", {
+        //     method: "POST",
+        //     headers: { "Content-Type": "application/json" },
+        //     body: JSON.stringify({name, email, message}),
+        //   });
     
-          if (response.ok) {
-            console.log("Email sent successfully!");
-           setEmail("")
-           setName("")
-           setMessage("")
-           setLoading(false)
-           toast({
+        //   if (response.ok) {
+        //     console.log("Email sent successfully!");
+        //    setEmail("")
+        //    setName("")
+        //    setMessage("")
+        //    setLoading(false)
+        //    toast({
           
-            title: "Email sent successfully!"
-          })
+        //     title: "Email sent successfully!"
+        //   })
       
-          } else {
-            console.log("Failed to send email. Please try again.");
-            toast({
-                variant: "destructive",
-                title: "Failed to send email. Please try again."
-              })
+        //   } else {
+        //     console.log("Failed to send email. Please try again.");
+        //     toast({
+        //         variant: "destructive",
+        //         title: "Failed to send email. Please try again."
+        //       })
           
-            setLoading(false)
-          }
-        } catch (error) {
-          console.error(error);
-          toast({
-            variant: "destructive",
-            title: "An error occurred. Please try again."
-          })
+        //     setLoading(false)
+        //   }
+        // } catch (error) {
+        //   console.error(error);
+        //   toast({
+        //     variant: "destructive",
+        //     title: "An error occurred. Please try again."
+        //   })
       
-          setLoading(false)
-        }
+        //   setLoading(false)
+        // }
       };
    return (
     <section data-aos="zoom-in"  className="flex md:justify-end flex-col md:flex-row ">
