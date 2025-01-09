@@ -56,7 +56,7 @@ import React, { useState } from 'react'
    return (
     <section data-aos="zoom-in"  className=" flex md:justify-end flex-col md:flex-row ">
         
-        <div className="relative md:w-[45%]">
+        <div className="relative md:w-[45%] w-full">
         <Image
                width={500}
                height={200}
