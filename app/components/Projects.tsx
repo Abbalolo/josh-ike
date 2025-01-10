@@ -14,10 +14,10 @@ function Projects() {
           <p className="text-gray-600 italic t ">(01)</p>
         </div>
         <div className="mt-10">
-          <h2 className="md:text-[200px] text-[75px] leading-[0.9]">
+          <h2 className="md:text-[120px] text-[75px] leading-[0.9]">
             Projects.
           </h2>
-          <p className=" md:text-5xl text-3xl md:w-[80%] mt-3">
+          <p className=" md:text-4xl text-2xl md:w-[80%] mt-3">
             Explore our recent projects showcasing creativity, innovation, and
             impactful design solutions.
           </p>

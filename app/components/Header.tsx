@@ -54,16 +54,16 @@ function Header() {
       name: "Exhibition",
       link: "/#service",
     },
-    {
-      name: "Social impact projects",
-      link: "/#service",
-    },
-    
-   
     // {
-    //   name: "Publication",
+    //   name: "Social impact projects",
     //   link: "/#service",
     // },
+    
+   
+    {
+      name: "Publication",
+      link: "/#service",
+    },
     // {
     //   name: "Event",
     //   link: "/#about",
@@ -104,7 +104,7 @@ function Header() {
       </div>
 
       <nav
-        className={` absolute w-full md:w-auto   top-0 left-0 md:static md:flex justify-center items-center md:justify-end md:items-end  transition-transform duration-500 ${
+        className={` absolute w-full md:w-auto   top-0 left-0 md:static md:flex justify-center items-center  transition-transform duration-500 ${
           open
             ? "transform translate-x-0 h-screen flex flex-col  bg-white dark:bg-[#0E1011]"
             : "transform -translate-x-full md:translate-x-0 md:h-auto "
@@ -126,7 +126,7 @@ function Header() {
         <Link
           onClick={() => setOpen(false)}
           href={"/contact"}
-          className="border-b-2 hover:border-none transition-all duration-300  text-[20px] md:ml-10 font-semibold mt-5 md:mt-0"
+          className="border-b-2 hover:border-none transition-all duration-300   md:ml-10 font-semibold mt-5 md:mt-0"
         >
           Lets Talk
         </Link>
@@ -163,7 +163,7 @@ function Header() {
         <div className="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <span
             aria-hidden="true"
-            className={`block absolute h-0.5 w-10 bg-current transform transition duration-500 ease-in-out ${
+            className={`block absolute h-0.5 w-9 bg-current transform transition duration-500 ease-in-out ${
               open ? "rotate-45" : "-translate-y-1.5"
             }`}
           ></span>
