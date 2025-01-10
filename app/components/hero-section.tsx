@@ -17,22 +17,22 @@ function HeroSection() {
             <span className="">EGESI.</span>
           </div>
 
-          <p className="text-gray-600 italic text-lg inter-font">
+          <p className="text-gray-600 italic text-lg ">
             (Base in west africa)
           </p>
 
-          <p className="inter-font text-2xl  md:w-[70%] ">
+          <p className=" text-2xl  md:w-[70%] ">
             Innovating Africa: Redefining Design for a Dynamic and Modern World,
             Bridging Tradition and Technology to Shape the Future.
           </p>
 
-          <p id="about" className="text-gray-600 italic text-lg mt-5 inter-font">
+          <p id="about" className="text-gray-600 italic text-lg mt-5 ">
             (About)
           </p>
 
           <div className=" md:text-[120px] text-[80px] flex flex-col ">Artist Bio.</div>
 
-          <p className="inter-font text-xl text-gray-400 md:w-[70%]">
+          <p className=" text-xl text-gray-400 md:w-[70%]">
             Born in 1992 in Lagos, Nigeria, Josh Ike Egesi is a multifaceted
             designer and artist whose innovative work is transforming the global
             design landscape. As the founder of the acclaimed design studio Ike,
@@ -40,28 +40,28 @@ function HeroSection() {
             fuse traditional African cultural elements with cutting-edge
             technology.
           </p>
-          <p className="inter-font text-xl text-gray-400 md:w-[70%]">
+          <p className=" text-xl text-gray-400 md:w-[70%]">
             With a diploma in art and industrial design from Auchi Polytechnic
             and a B.Sc. in fine and applied art with a painting major from the
             University of Benin, Edo State, Egesi&apos;s academic foundation has
             fueled his creative journey.
           </p>
           {/* 
-<p className='inter-font text-xl text-gray-400'>
+<p className=' text-xl text-gray-400'>
 Hailing from the vibrant design hub of Lagos, Egesi&apos;s design philosophy is rooted in a deep reverence for his Nigerian heritage and a relentless pursuit of creative solutions that resonate with modern audiences. His celebrated works, showcased at prestigious events like Milan Design Week, have solidified his reputation as a rising design luminary.</p> */}
-          {/* <p className='inter-font text-xl text-gray-400'>
+          {/* <p className=' text-xl text-gray-400'>
 Egesi&apos;s portfolio spans a diverse range of disciplines, including furniture, lighting, sporting goods, and electronics, and his iconic creations—such as the Ikenna Tripod Fan and the Ayo Bench S2—have earned him features in leading design publications, including Wallpaper*, Dezeen, and Architectural Digest.</p> */}
-          {/* <p className='inter-font text-xl text-gray-400'>
+          {/* <p className=' text-xl text-gray-400'>
 Beyond his artistic achievements, Egesi is a passionate advocate for social change, leveraging his expertise in art, science, and engineering to create meaningful, culturally resonant pieces. As a visionary designer and artist, his work bridges the gap between tradition and technology, serving as a powerful vehicle for cultural expression and social impact.</p> */}
 
           <Link
-            className="relative before:content-[''] before:absolute md:before:top-6 before:top-14 before:left-0 before:w-20 before:h-[2px] before:bg-white before:transition-all before:duration-300  md:text-[20px] text-[40px] inter-font"
+            className="relative before:content-[''] before:absolute md:before:top-6 before:top-14 before:left-0 before:w-20 before:h-[2px] before:bg-white before:transition-all before:duration-300  md:text-[20px] text-[40px] "
             href="#"
           >
             More About Us.
           </Link>
 
-          <p className="text-gray-600 italic text-lg mt-5 inter-font">
+          <p className="text-gray-600 italic text-lg mt-5 ">
             (Our Partners)
           </p>
 

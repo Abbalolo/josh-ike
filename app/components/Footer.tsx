@@ -12,8 +12,8 @@ function Footer() {
         <span className="">EGESI.</span>
       </div>
 
-      <ul className="inter-font text-xl mt-10">
-        <p className="text-gray-600 italic text-lg inter-font mb-5">(Pages)</p>
+      <ul className=" text-xl mt-10">
+        <p className="text-gray-600 italic text-lg i mb-5">(Pages)</p>
         <li>
           <Link href="#">Home</Link>
         </li>
@@ -27,8 +27,8 @@ function Footer() {
           <Link href="#">Contact</Link>
         </li>
       </ul>
-      <ul className="inter-font text-xl mt-10">
-        <p className="text-gray-600 italic text-lg inter-font mb-5">
+      <ul className="i text-xl mt-10">
+        <p className="text-gray-600 italic text-lg i mb-5">
           (Socials)
         </p>
         <li>

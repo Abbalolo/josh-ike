@@ -78,16 +78,16 @@ import React, { useState } from 'react'
 
          
 
-        <form onSubmit={handleSubmit} className="md:w-[80%] inter-font flex flex-col justify-center items-center md:justify-start md:items-start gap-3">
+        <form onSubmit={handleSubmit} className="md:w-[80%]  flex flex-col justify-center items-center md:justify-start md:items-start gap-3">
             <div className="flex gap-3 w-full">
             <div className="w-full">
-            <p className="text-gray-600 italic text-lg inter-font">
+            <p className="text-gray-600 italic text-lg ">
             (Name)
           </p>
                 <Input className="dark:bg-[#0E1011] border border-gray-500 w-full" type='text' placeholder="First Name " value={name}  onChange={((e) => setName(e.target.value))}/>
             </div>
             <div className="w-full">
-            <p className="text-gray-600 italic text-lg inter-font">
+            <p className="text-gray-600 italic text-lg ">
             (Email)
           </p>
                 <Input className="dark:bg-[#0E1011] border border-gray-500 "  type='email' placeholder="Email Address" value={email}  onChange={((e) => setEmail(e.target.value))} />

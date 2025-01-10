@@ -8,16 +8,16 @@ function Projects() {
     <section id="work" data-aos="zoom-in-down" className="dark:bg-[#181A1B]  dark:text-[#ffffff] flex flex-col gap-5 ">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
-          <p className="text-gray-600 italic inter-font">
+          <p className="text-gray-600 italic ">
             (Selected Work)
           </p>
-          <p className="text-gray-600 italic t inter-font">(01)</p>
+          <p className="text-gray-600 italic t ">(01)</p>
         </div>
         <div className="mt-10">
           <h2 className="md:text-[200px] text-[75px] leading-[0.9]">
             Projects.
           </h2>
-          <p className="inter-font md:text-5xl text-3xl md:w-[80%] mt-3">
+          <p className=" md:text-5xl text-3xl md:w-[80%] mt-3">
             Explore our recent projects showcasing creativity, innovation, and
             impactful design solutions.
           </p>

@@ -39,21 +39,39 @@ function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [open]);
 
   const navData = [
     {
-      name: "Work",
+      name: "Artworks",
       link: "/#work",
     },
     {
-      name: "Services",
+      name: "Design",
       link: "/#service",
     },
     {
-      name: "About",
-      link: "/#about",
+      name: "Exhibition",
+      link: "/#service",
     },
+    {
+      name: "Social impact projects",
+      link: "/#service",
+    },
+    
+   
+    // {
+    //   name: "Publication",
+    //   link: "/#service",
+    // },
+    // {
+    //   name: "Event",
+    //   link: "/#about",
+    // },
+    // {
+    //   name: "Biography",
+    //   link: "/#about",
+    // },
   ];
 
   useEffect(() => {
@@ -81,12 +99,12 @@ function Header() {
     >
       <div className="">
         <Link className="text-[30px]  flex items-center" href="/">
-          JOSH EGESI
+          JOSH IKE EGESI
         </Link>
       </div>
 
       <nav
-        className={` absolute w-full md:w-auto inter-font  top-0 left-0 md:static md:flex justify-center items-center md:justify-end md:items-end  transition-transform duration-500 ${
+        className={` absolute w-full md:w-auto   top-0 left-0 md:static md:flex justify-center items-center md:justify-end md:items-end  transition-transform duration-500 ${
           open
             ? "transform translate-x-0 h-screen flex flex-col  bg-white dark:bg-[#0E1011]"
             : "transform -translate-x-full md:translate-x-0 md:h-auto "
@@ -98,7 +116,7 @@ function Header() {
               <Link
                 onClick={() => setOpen(false)}
                 href={data.link}
-                className="relative before:content-[''] before:absolute before:top-6 before:left-0 before:w-0 before:h-[2px] before:bg-white before:transition-all before:duration-300 hover:before:w-full md:text-[20px] text-[40px]"
+                className="relative before:content-[''] before:absolute before:top-6 before:left-0 before:w-0 before:h-[2px] before:bg-white before:transition-all before:duration-300 hover:before:w-full text-[20px] md:text-base"
               >
                 {data.name}
               </Link>

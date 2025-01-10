@@ -64,14 +64,14 @@ function Services() {
     <section id="service" data-aos="zoom-in" className="flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff]">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
-          <p className="text-gray-600 italic  inter-font">(What we do)</p>
-          <p className="text-gray-600 italic  inter-font">(02)</p>
+          <p className="text-gray-600 italic  ">(What we do)</p>
+          <p className="text-gray-600 italic  ">(02)</p>
         </div>
         <div className="mt-10">
           <h2 className="md:text-[200px] text-[75px] leading-[0.9]">
             Services.
           </h2>
-          <p className="inter-font md:text-5xl text-3xl md:w-[80%] mt-3">
+          <p className=" md:text-5xl text-3xl md:w-[80%] mt-3">
             Bringing creativity and expertise together, we offer tailored
             services that inspire, educate, and transform ideas into impactful
             experiences.
@@ -97,15 +97,15 @@ function Services() {
         <div  className="md:p-20 p-3 md:w-[60%] flex flex-col gap-10">
           <div className="text-[80px] flex flex-col  leading-[0.9] ">{data.name}.</div>
 
-          <p className="inter-font text-3xl text-gray-400 ">
+          <p className=" text-3xl text-gray-400 ">
           {data.description}.
           </p>
 
-          <p className="text-gray-600 italic text-lg  inter-font">
+          <p className="text-gray-600 italic text-lg  ">
             ({data.name})
           </p>
 
-          <ul className="inter-font md:text-2xl  grid grid-cols-2  gap-5 mt-5 font-semibold  pb-5 md:p-0">
+          <ul className=" md:text-2xl  grid grid-cols-2  gap-5 mt-5 font-semibold  pb-5 md:p-0">
             {data.servicesList.map((s, index) => (
  <li key={index}>{s}</li>
 
