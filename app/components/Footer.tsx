@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer
       data-aos="zoom-in-down"
-      className="flex flex-col  md:flex-row justify-around  dark:text-[#1F2122] bg-[#1F2122] dark:bg-[#ffffff] text-[#ffffff] md:p-20 p-5"
+      className="flex flex-col section-scroll-top  md:flex-row justify-around  dark:text-[#1F2122] bg-[#1F2122] dark:bg-[#ffffff] text-[#ffffff] md:p-20 p-5"
     >
       <div className="md:text-[90px] text-[75px] flex flex-col leading-[0.9] ">
         <span className="">JOSH</span>

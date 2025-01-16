@@ -70,7 +70,7 @@ import React, { useState } from 'react'
         </div>
       
         <div data-aos="zoom-in" className=" md:w-[60%] w-full flex flex-col  gap-5 p-3 md:p-0 md:mt-28 py-10 md:py-0" >
-          <div data-aos="fade-up" className="md:text-[90px] text-[75px] flex flex-col leading-[0.9] ">
+          <div data-aos="fade-up" className="md:text-[80px] text-[60px] flex flex-col leading-[0.9] ">
             <span className="">Let&apos;s
             </span>
             <span className="">Create.</span>

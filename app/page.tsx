@@ -7,12 +7,13 @@ import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
-  <main>
+  <main className="relative">
     <HeroSection/>
     <Projects/>
     <Services/>
     <Testimonial/>
     <Footer/>
+    <a href="/path-to-your-portfolio.pdf" download className="fixed bottom-10 right-10 w-14 h-15 border flex justify-center items-center">Download Portfolio</a>
   </main>
   );
 }

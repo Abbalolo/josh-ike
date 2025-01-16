@@ -9,6 +9,9 @@ body {
   scroll-behavior: smooth;
 }
 
+.section-scroll-top{
+  scroll-margin-top: 50px;
+}
 
 .inter-font {
   font-family: "Inter", serif; 

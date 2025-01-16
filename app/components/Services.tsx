@@ -61,17 +61,17 @@ function Services() {
     ];
     
   return (
-    <section id="service" data-aos="zoom-in" className="flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff]">
+    <section id="service" data-aos="zoom-in" className="section-scroll-top flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff]">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
           <p className="text-gray-600 italic  ">(What we do)</p>
           <p className="text-gray-600 italic  ">(02)</p>
         </div>
         <div className="mt-10">
-          <h2 className="md:text-[120px] text-[75px] leading-[0.9]">
+          <h2 className="md:text-[80px] text-[60px] leading-[0.9]">
             Services.
           </h2>
-          <p className=" md:text-4xl text-2xl md:w-[80%] mt-3">
+          <p className=" md:text-3xl text-2xl md:w-[80%] mt-3">
             Bringing creativity and expertise together, we offer tailored
             services that inspire, educate, and transform ideas into impactful
             experiences.

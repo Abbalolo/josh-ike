@@ -5,7 +5,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="work" data-aos="zoom-in-down" className="dark:bg-[#181A1B]  dark:text-[#ffffff] flex flex-col gap-5 ">
+    <section id="work" data-aos="zoom-in-down" className="dark:bg-[#181A1B]  dark:text-[#ffffff] flex flex-col gap-5 section-scroll-top">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
           <p className="text-gray-600 italic ">
@@ -14,10 +14,10 @@ function Projects() {
           <p className="text-gray-600 italic t ">(01)</p>
         </div>
         <div className="mt-10">
-          <h2 className="md:text-[120px] text-[75px] leading-[0.9]">
+          <h2 className="md:text-[80px] text-[60px] leading-[0.9]">
             Projects.
           </h2>
-          <p className=" md:text-4xl text-2xl md:w-[80%] mt-3">
+          <p className=" md:text-3xl text-2xl md:w-[80%] mt-3">
             Explore our recent projects showcasing creativity, innovation, and
             impactful design solutions.
           </p>
@@ -39,8 +39,8 @@ function Projects() {
         priority
         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
       />
-      <p className="absolute inset-0 flex items-center justify-center text-[100px] text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-        <FaFan /> Tripod
+      <p className="absolute inset-0 flex items-center justify-center text-[80px] text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+        <FaFan /> Tripod Fan
       </p>
     </div>
   ))}
@@ -61,7 +61,7 @@ function Projects() {
         priority
         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
       />
-      <p className="absolute inset-0 flex items-center justify-center text-[100px] text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+      <p className="absolute inset-0 flex items-center justify-center text-[80px] text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100">
         <BsLampFill /> Yabasi Lamp
       </p>
     </div>

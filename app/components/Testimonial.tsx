@@ -10,18 +10,18 @@ function Testimonial() {
    
     
   return (
-    <section data-aos="zoom-in" className="flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff] pb-10">
+    <section data-aos="zoom-in" className="section-scroll-top flex flex-col   dark:bg-[#0E1011] dark:text-[#ffffff] pb-10">
       <div className="p-3 md:p-20">
         <div className="flex justify-between mb-5 text-xl mt-5">
           <p className="text-gray-600 italic  ">(Testimonial)</p>
           <p className="text-gray-600 italic  ">(03)</p>
         </div>
         <div className="mt-10">
-          <h2 className="md:text-[120px] text-[75px] leading-[0.9]">
+          <h2 className="md:text-[80px] text-[60px] leading-[0.9]">
           What our
           Clients say.
           </h2>
-          <p className=" md:text-4xl text-2xl md:w-[80%] mt-3">
+          <p className=" md:text-3xl text-2xl md:w-[80%] mt-3">
           Hear our clients about their success stories and experiences with us.
           </p>
         </div>

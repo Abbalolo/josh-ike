@@ -8,7 +8,7 @@ function HeroSection() {
   return (
 
      
-      <section data-aos="zoom-in"  className="flex md:justify-end flex-col md:flex-row ">
+      <section data-aos="zoom-in"  className="section-scroll-top flex md:justify-end flex-col md:flex-row ">
           <CarouselCon />
       
         <div data-aos="zoom-in" className=" md:w-[60%] w-full flex flex-col gap-5 p-3 md:p-5 md:mt-28">
@@ -30,7 +30,7 @@ function HeroSection() {
             (About)
           </p>
 
-          <div className=" md:text-[90px] text-[80px] flex flex-col ">Artist Bio.</div>
+          <div className=" md:text-[80px] text-[60px] flex flex-col ">Artist Bio.</div>
 
           <p className=" text-xl text-gray-400 md:w-[70%]">
             Born in 1992 in Lagos, Nigeria, Josh Ike Egesi is a multifaceted
